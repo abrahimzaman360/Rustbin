@@ -2,8 +2,8 @@
 
 ## What am learning with Rust:
 
-- // Mutable Means = Changable Variable (:
-- // Immutable = Vice Verse
+- Mutable Means = Changable Variable (:
+- Immutable = Vice Verse
 
 # About Authors:
 
