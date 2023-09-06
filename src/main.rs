@@ -1,3 +1,4 @@
 fn main() {
-    println!("Dustbin v1.0");
+    let app_version = "1.0.0";
+    println!("Dustbin v{app_version}");
 }
