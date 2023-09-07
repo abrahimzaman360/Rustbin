@@ -1,8 +1,7 @@
+fn sum(a: i32, b: i32) -> i32 {
+    return a + b;
+}
+
 fn main() {
-    let app_version = "1.0.0";
-    let mut dark = false;
-    println!("Dustbin v{app_version}");
-    print!("Dark is {dark}");
-    dark = true;
-    print!("Dark is {dark}");
+    println!("Sum: {}", sum(3, 3));
 }
