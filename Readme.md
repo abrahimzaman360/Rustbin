@@ -17,4 +17,4 @@
 # About Authors:
 
 - Author: [Ibrahim Zaman](https://abrahimzaman.com)
-- Collaborator: Uman Sheikh.
+- Collaborator: [Uman Sheikh]("https://umansheikh.github.io/portfolio/")
