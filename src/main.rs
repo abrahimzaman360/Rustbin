@@ -1,7 +1,10 @@
-fn sum(a: i32, b: i32) -> i32 {
-    return a + b;
-}
-
 fn main() {
-    println!("Sum: {}", sum(3, 3));
+    let s = String::from("hello");
+    let mut step: i32 = 0;
+    println!("I have following length: {}", s.len());
+    println!("How much storage capacity I have: {}", s.capacity());
+    for i in s.chars() {
+        println!("{:?} - {}", i, step);
+        step += 1;
+    }
 }
