@@ -14,6 +14,10 @@
 - Error: x+y ==> because x is 32bit integer and y is unsigned 32 bit integer with more range
 - Above Error will cause overflow issue
 
+# What's New
+
+1. Added lib folder and a guessing game.
+
 # About Authors:
 
 - Author: [Ibrahim Zaman](https://abrahimzaman.com)
