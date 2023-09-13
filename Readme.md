@@ -17,6 +17,7 @@
 # What's New
 
 1. Added lib folder and a guessing game.
+2. Soon adding thirsty crow game (:...
 
 # About Authors:
 
