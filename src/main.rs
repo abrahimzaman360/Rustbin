@@ -3,6 +3,6 @@ mod guess;
 fn main() {
     println!("Starting...");
 
-    // init game...
+    // init guess game...
     guess::game::init();
 }
