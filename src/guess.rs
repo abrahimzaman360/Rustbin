@@ -5,7 +5,7 @@ pub(crate) mod game {
 
     pub fn init() {
         // From Documentation. Lets Try Guess The Number Game
-        println!("This is Guess the number Game");
+        println!("\nThis is Guess the number Game");
 
         let number = rand::thread_rng().gen_range(1..=100);
 
@@ -30,7 +30,15 @@ pub(crate) mod game {
                     println!("Wrong guess, You gone lower the target!")
                 }
                 Ordering::Equal => {
-                    println!("Wow, You Guessed it right!!");
+                    println!("Wow, You Guessed it right!! The Number is: {number}");
+                    println!("Do you want to play again?");
+                    let mut buf = String::new();
+                    io::stdin().read_line(&mut buf).expect("E to play again & Q/q to quit");
+                    if buf.trim() == "Q" || buf.trim() == "q" {
+                        break;
+                    } else if buf.trim() == "Y" || buf.trim() == "y" {
+                        init();
+                    }
                     break;
                 }
             }
