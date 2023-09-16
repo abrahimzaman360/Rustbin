@@ -16,8 +16,9 @@
 
 # What's New
 
-1. Added a lib folder and a guessing game.
-2. Soon adding thirsty crow game (:...
+1. Added a lib folder and a guessing game
+2. Soon adding thirsty crow game (:
+3. Adding Tic Tac Toe game soon.
 
 # About Authors:
 
